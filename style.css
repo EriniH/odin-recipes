@@ -1,0 +1,28 @@
+* {
+    background-color: wheat;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2,
+.recipes-list a {
+    color: maroon;
+}
+
+.recipes-list {
+    font-size: 18px;
+    list-style: none;
+}
+
+.recipes-list a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.recipe-img {
+    height: 400px;
+    width: 100%;
+}
