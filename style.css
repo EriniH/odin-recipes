@@ -16,13 +16,13 @@
 }
 
 .main img {
-    height: 80%;
+    height: 100%;
     width: 30%;
     float: left;
 }
 
 .main h1 {
-    font-size: 100px;
+    font-size: 80px;
     width: 70%;
     height: 100%;
     background-color: inherit;
