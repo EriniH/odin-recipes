@@ -1,28 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lalezar);
+
 * {
-    background-color: wheat;
+    margin: 0;
+    background-color: #1e1e1e;
+    color: white;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family:'Lalezar';
 }
 
-h1 {
+.main {
+    background-color: #000000;
+    width: 100%;
+    height: 200px;
+}
+
+.main img {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.main h1 {
+    font-size: 120px;
+    width: 70%;
+    height: 100%;
+    background-color: inherit;
     text-align: center;
 }
 
-h1,
-h2,
-.recipes-list a {
-    color: maroon;
+.recipes img {
+    height: 100px;
+    width: 100px;
 }
 
-.recipes-list {
-    font-size: 18px;
+.recipes ul {
+    font-size: 50px;
     list-style: none;
+    margin: 20px;
 }
 
-.recipes-list a {
+.recipes a {
     text-decoration: none;
-    font-weight: bold;
 }
 
-.recipe-img {
-    height: 400px;
-    width: 100%;
+.tbc {
+    font-size: 80px;
+    text-align: center;
+    direction: ltr;
 }

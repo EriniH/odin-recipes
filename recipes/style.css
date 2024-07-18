@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Lalezar);
+
+* {
+    background-color: #1e1e1e;
+    color: white;
+    box-sizing: border-box;
+    direction: ltr;
+    font-family:'Lalezar';
+}
+
+h1 {
+    margin: 0;
+    font-size: 120px;
+    text-align: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
